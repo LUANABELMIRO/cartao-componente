@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../interactive-rating-component-main/images/favicon-32x32.png">
+2.png
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head> 
+<body>
+<div class="container">
+  <div class="main" id="main--div">
+   <div class="star">
+   <img src="/interactive-rating-component-main/images/icon-star.svg" alt="imagem estrela">
+   </div>
+   <h1 class = "main--title"> How did we do?</h1>
+   <p class = "main--content"> Please let us know we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+   <div class="numbers">
+
+    <ul>
+     <li><button value="1" class="number--circle btn">1</button></li>
+     <li><button value="2" class="number--circle btn">2</button></li>
+     <li><button value="3" class="number--circle btn">3</button></li>
+     <li><button value="4" class="number--circle btn">4</button></li>
+     <li><button value="5" class="number--circle btn">5</button></li>
+    </ul>
+  
+    </div>
+     <button class = "submit" id="submit" onclick="thanks (event)"> Submit</button>
+    </div>
+
+
+
+
+
+    <div class="hidden second--screen"id="hidden--div">
+      <img src="/interactive-rating-component-main/images/illustration-thank-you.svg" alt="image thanks" class="svg-file">
+    <div class="result">
+     <span>Your seleted <span id="result"></span> out of 5</span>
+     </div>
+     <h1 class ="main--title">Thank You!</h1>
+     <p class = "main--content"> We appreciate you taking the time to give a rating. If you ever need more support,
+      don't hesitate to get in touch </p>
+    </div>
+</div>
+  
+<script src="./scripts.js"></script>
+
+
+</body>
+</html>
